@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Hire from "./Hire.jsx";
 
 function Repositories() {
     const [todoStars, setTodoStars] = useState(0);
@@ -74,6 +75,8 @@ function Repositories() {
                 <span>12 commits</span>
             </div>
             </div>
+
+            <Hire hours={0} />
       </main>
     );
 }

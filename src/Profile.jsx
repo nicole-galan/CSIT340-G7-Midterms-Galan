@@ -23,7 +23,7 @@ function Profile() {
     }
 
     return (
-        <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
+        <div className="flex items-end justify-between bg-[#F5E7C6] px-10 py-10">
         
             <div>    
                 <Bio name={name} username={username} />

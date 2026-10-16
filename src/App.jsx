@@ -1,7 +1,8 @@
-import Navbar from "./Navbar.jsx";
-import Footer from "./Footer.jsx";
-import Profile from "./Profile.jsx";
-import Repositories from "./Repositories.jsx";
+
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import Profile from "./components/Profile.jsx";
+import Repositories from "./components/Repositories.jsx";
 
 function App() {
   

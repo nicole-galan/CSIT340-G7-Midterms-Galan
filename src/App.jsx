@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "./Navbar.jsx";
+import "./Footer.jsx";
 
 function App() {
   const [followers, setFollowers] = useState(0);
@@ -37,9 +39,9 @@ function App() {
       <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
         <div>
           <header>
-            <h2 className="text-6xl font-bold">"Nicole Angela P. Galan"</h2>
+            <h2 className="text-6xl font-bold">Nicole Angela P. Galan</h2>
             <p className="mt-1 text-2xl text-[#FA8112]">
-              "@nicole-galan"
+              @nicole-galan
             </p>
             <p className="mt-3 text-2xl">Front-end developer from Cebu City.</p>
           </header>
@@ -133,10 +135,6 @@ function App() {
           </div>
         </div>
       </main>
-
-      <footer className="mt-auto bg-[#222222] px-20 py-6 text-center text-xl text-[#FAF3E1]">
-        <p>Every profile on DevHub is public.</p>
-      </footer>
     </div>
   );
 }
